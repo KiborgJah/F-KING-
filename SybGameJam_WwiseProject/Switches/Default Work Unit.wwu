@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0D6EF766-30D2-49F0-8F6B-225D6A2443A1}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{0D6EF766-30D2-49F0-8F6B-225D6A2443A1}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Locomotion" ID="{6490976E-B406-4D46-8A3A-8FACD499A23C}">
+				<SwitchGroup Name="Locomotion" ID="{C1C5EC9F-13C8-413B-BC6D-9171894F1010}">
 					<ChildrenList>
-						<Switch Name="Walk" ID="{115781E7-3F39-458C-9F98-96F7BFC3D81D}"/>
-						<Switch Name="Run" ID="{5DF3E83E-B817-4366-9CF7-F3C21623EC1D}"/>
-						<Switch Name="Roller" ID="{B5B8F771-2EC9-4FBB-92EE-F54C084A5AE9}"/>
-						<Switch Name="Jumping" ID="{CA87091D-9F4A-44EF-8290-DC1AF8662711}"/>
+						<Switch Name="Walk" ID="{E846F1B1-5983-4AC5-848F-EDCA961BC3A5}"/>
+						<Switch Name="Run" ID="{F23D59FA-748C-4128-8970-19636AB0DAF2}"/>
+						<Switch Name="Roller" ID="{862061B6-A946-43C5-A57A-912C2B8A71F2}"/>
+						<Switch Name="Jumping" ID="{5B78FA76-DE2F-4B59-A139-2CE10066D7F4}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Surface" ID="{CB5CF817-4F9C-47B6-B96F-828699D7B702}">
+				<SwitchGroup Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}">
 					<ChildrenList>
-						<Switch Name="Sand" ID="{45284A07-4DA1-4CED-A9F2-3AB3A54CA77D}"/>
-						<Switch Name="Gravel" ID="{5DDE5731-AE8C-4915-A873-2A72DA8EDD94}"/>
-						<Switch Name="Wood" ID="{D27C2945-64DD-4BA8-B043-D844C75D5A83}"/>
+						<Switch Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}"/>
+						<Switch Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+						<Switch Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

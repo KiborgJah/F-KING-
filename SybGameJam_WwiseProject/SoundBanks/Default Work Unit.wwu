@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2A164A5E-5127-424E-9BB3-39CA491DC47E}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{82EDD519-F994-4BD1-8E86-11EBCE6ACA36}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{2A164A5E-5127-424E-9BB3-39CA491DC47E}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{82EDD519-F994-4BD1-8E86-11EBCE6ACA36}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Master" ID="{D29F3021-46A8-4E55-8903-9B006D17C0A6}">
+				<SoundBank Name="Master" ID="{15456C88-541D-4BF8-B052-7C91D7BE7445}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

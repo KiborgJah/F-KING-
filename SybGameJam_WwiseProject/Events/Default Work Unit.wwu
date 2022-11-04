@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B20A764B-377E-45B2-AC2A-9E100499ED93}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{06D80765-FBBA-491A-9040-894FB848ACAB}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B20A764B-377E-45B2-AC2A-9E100499ED93}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{06D80765-FBBA-491A-9040-894FB848ACAB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Player" ID="{881A2E53-5A00-4A45-AFFA-0EEC56CA1CB7}" ShortID="759389162">
+				<Folder Name="Player" ID="{CC71E234-E337-44DB-A5D6-D78A71D4E210}" ShortID="759389163">
 					<ChildrenList>
-						<Event Name="Breathing" ID="{A1F4E365-7404-40B9-B275-F0EBC40417A3}">
+						<Event Name="Breathing" ID="{D5DE2984-7A7F-4F52-B18D-FF220F4EC507}">
 							<ChildrenList>
-								<Action Name="" ID="{FA0322B5-52C5-4F4C-A3BD-0875766126EB}" ShortID="824219911">
+								<Action Name="" ID="{46718BC1-9B62-4F4E-80F2-832743DEF779}" ShortID="376861395">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Breathing" ID="{5A94F797-B010-44F9-9234-F81CFB45D69B}" WorkUnitID="{CF94F949-30E5-4BAD-90FA-A69340A01344}"/>
+											<ObjectRef Name="Breathing" ID="{499F7F9A-EEDE-4BA0-90F2-F3314CE6528C}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Mooving" ID="{E2BB1318-B0AD-4F49-BA50-B40DD390F603}">
+						<Event Name="Mooving" ID="{44AF75A6-2448-42A4-8F41-B9C7651EBF57}">
 							<ChildrenList>
-								<Action Name="" ID="{9C44A163-E8B3-447F-ABED-D7CF7E8B3C4A}" ShortID="618922865">
+								<Action Name="" ID="{E2AA44CD-9CBA-4EA9-9058-47FE424B1D6D}" ShortID="201336038">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Locomotion" ID="{2ED58C72-84E9-4F1C-A1EF-40F9D0DECD11}" WorkUnitID="{CF94F949-30E5-4BAD-90FA-A69340A01344}"/>
+											<ObjectRef Name="Locomotion" ID="{96084211-4893-4F31-8D34-0DF527472D5B}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
