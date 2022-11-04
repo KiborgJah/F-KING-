@@ -253,9 +253,18 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{5DF75BDF-207F-4008-A746-5175AB5288FA}"/>
+										<ItemRef Name="Exh" ID="{EC334C1C-C20D-4C74-9E4C-2B63C928A8D3}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Walk02" ID="{A8085E59-8C2C-410D-9847-9FD204B94705}" ShortID="868146140">
 									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
@@ -437,6 +446,10 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{13781CAA-2B62-4BAF-8C2D-A01C5DB3CE2C}"/>
+										<ItemRef Name="Exh" ID="{9B69769D-B6BE-4FC9-B770-3A43C86B95B3}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Run01" ID="{C3292FC7-B641-4A7B-AD6D-152EB8FC3C34}" ShortID="245993207">
 									<PropertyList>
@@ -476,6 +489,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_exh_01" ID="{BD034845-41F6-4E9E-B190-27085DC80E33}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.95"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_exh_01.wav</AudioFile>
 															<MediaIDList>
@@ -499,6 +517,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_exh_02" ID="{F789C272-F308-405B-A6AF-919AB2E216A0}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.95"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_exh_02.wav</AudioFile>
 															<MediaIDList>
@@ -522,6 +545,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_exh_03" ID="{52D4D770-4D31-4A1A-931A-CDB6DD5AA6A2}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.95"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_exh_03.wav</AudioFile>
 															<MediaIDList>
@@ -558,6 +586,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_in_02" ID="{06FE4A6B-C017-4721-BCDB-17698B112653}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_in_02.wav</AudioFile>
 															<MediaIDList>
@@ -581,6 +614,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_in_01" ID="{AE74B7F7-D57E-4525-81BC-934E55AE520A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_in_01.wav</AudioFile>
 															<MediaIDList>
@@ -604,6 +641,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt01_in_03" ID="{67150456-6CAB-475E-BAB7-67089217DAEC}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt01_in_03.wav</AudioFile>
 															<MediaIDList>
@@ -621,6 +663,10 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{AD679679-E7B0-458F-81C4-768CDDE72944}"/>
+										<ItemRef Name="Exh" ID="{CD5760DE-ACF0-4455-91CB-493CF6EE9F10}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Run02" ID="{3F5355F3-4725-45E3-B38A-E6AAB386B652}" ShortID="775603022">
 									<PropertyList>
@@ -660,6 +706,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_exh_02" ID="{BBD9D226-122A-42F9-9142-827E8D9DC5AE}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.759287531806616"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_exh_02.wav</AudioFile>
 															<MediaIDList>
@@ -683,6 +733,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_exh_03" ID="{AB1009F4-D51D-429E-802D-DD48B87CEEAD}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.758015267175573"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_exh_03.wav</AudioFile>
 															<MediaIDList>
@@ -706,6 +760,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_exh_01" ID="{4D669A65-7E8D-4D67-A462-11DAAB343821}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0543893129770992"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_exh_01.wav</AudioFile>
 															<MediaIDList>
@@ -742,6 +801,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_in_02" ID="{8B564402-ABC7-4C85-9456-B407A64367FA}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_in_02.wav</AudioFile>
 															<MediaIDList>
@@ -765,6 +829,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_in_01" ID="{CC91B655-552E-4136-8DD9-290EEEC411E5}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_in_01.wav</AudioFile>
 															<MediaIDList>
@@ -788,6 +857,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt02_in_03" ID="{66954AA6-C64F-4BC2-ABB0-FE769E3912FF}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt02_in_03.wav</AudioFile>
 															<MediaIDList>
@@ -805,6 +879,10 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{BAF58A09-13FF-4D97-BF53-82C6504B7928}"/>
+										<ItemRef Name="Exh" ID="{B5E557AC-722D-4823-8209-CD079474686D}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Run03" ID="{F88A72DC-16B6-47D6-BF3D-32E9DA67B038}" ShortID="171466602">
 									<PropertyList>
@@ -844,6 +922,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_exh_02" ID="{DBA4E80F-2056-4BF4-9129-3A9AA3776150}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.131093696988974"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.131093696988974"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.948"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_exh_02.wav</AudioFile>
 															<MediaIDList>
@@ -867,6 +951,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_exh_03" ID="{A9B904E0-43DF-4275-917D-AE9BD8BEF905}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.066793893129771"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_exh_03.wav</AudioFile>
 															<MediaIDList>
@@ -890,6 +978,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_exh_04" ID="{7F214BD6-E60C-4CEA-8439-A7CF3D15FEE0}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0424420854537744"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.785696167302799"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_exh_04.wav</AudioFile>
 															<MediaIDList>
@@ -913,6 +1006,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_exh_01" ID="{0D2C224C-59F8-43DF-9299-DC57F8262B32}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.08"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_exh_01.wav</AudioFile>
 															<MediaIDList>
@@ -949,6 +1047,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_in_01" ID="{DD26BC50-D325-4A46-87A1-AED191DB1EC6}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0989980916030534"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.854007633587786"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_in_01.wav</AudioFile>
 															<MediaIDList>
@@ -972,6 +1075,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_in_02" ID="{E3070552-0E76-4C7F-A565-741DF682F917}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0990776081424936"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.858301526717557"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_in_02.wav</AudioFile>
 															<MediaIDList>
@@ -995,6 +1103,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_in_03" ID="{755345D4-EC23-4195-B072-278D7DFF9C36}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0790394402035623"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.800413486005089"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_in_03.wav</AudioFile>
 															<MediaIDList>
@@ -1018,6 +1131,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="br_spirnt03_in_04" ID="{8DBF17D5-195A-4346-A21C-4411807277BF}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0469147582697201"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Player\Breathing\br_spirnt03_in_04.wav</AudioFile>
 															<MediaIDList>
@@ -1035,6 +1152,10 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{A72C6694-45F7-4AF2-B4CA-606700BD8E44}"/>
+										<ItemRef Name="Exh" ID="{11861C48-47CC-40A6-9A1F-E3BC06CBE33C}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Walk01" ID="{585DA6EE-23DE-4136-AB21-D6A45B7D5DEE}" ShortID="412991741">
 									<PropertyList>
@@ -1219,11 +1340,90 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Inh" ID="{45A77281-BCD4-4B43-BB1F-0A0A344CB5B9}"/>
+										<ItemRef Name="Exh" ID="{202C0B64-EAFB-4C10-ADB5-64665C6064CD}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
 							<BlendTrackList>
-								<BlendTrack Name="Running" ID="{1891C46E-3D61-4848-A266-B933C02E0F96}" ShortID="442325023"/>
+								<BlendTrack Name="Running" ID="{1891C46E-3D61-4848-A266-B933C02E0F96}" ShortID="442325023">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Stamina" ID="{2AB56945-8E83-4AF6-A353-D40EC58AA85D}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Run03" ID="{F88A72DC-16B6-47D6-BF3D-32E9DA67B038}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>19.5366738410596</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log2</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Run02" ID="{3F5355F3-4725-45E3-B38A-E6AAB386B652}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>14.8346870860927</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>39.4704486754968</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Run01" ID="{C3292FC7-B641-4A7B-AD6D-152EB8FC3C34}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>34.0952977373069</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>57.9971262417219</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Walk02" ID="{A8085E59-8C2C-410D-9847-9FD204B94705}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>52.7793538217439</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>73.8109251517659</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Walk01" ID="{585DA6EE-23DE-4136-AB21-D6A45B7D5DEE}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>66.5666523523731</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>91.2102233374724</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Idle" ID="{663773AB-A779-40A3-9432-BE3F29EFA063}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>83.7250147799393</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
 						<SwitchContainer Name="Locomotion" ID="{96084211-4893-4F31-8D34-0DF527472D5B}" ShortID="407038288">

@@ -3,7 +3,7 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Stamina_01" ID="{2AB56945-8E83-4AF6-A353-D40EC58AA85D}">
+				<GameParameter Name="Stamina" ID="{2AB56945-8E83-4AF6-A353-D40EC58AA85D}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>

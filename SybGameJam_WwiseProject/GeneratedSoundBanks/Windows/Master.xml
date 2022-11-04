@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>O:\MyProjects\UE4\JAMLAM\F-KING-\SybGameJam_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4056684167" GUID="{15456C88-541D-4BF8-B052-7C91D7BE7445}" Language="SFX" Hash="3045791645">
+		<SoundBank Id="4056684167" GUID="{15456C88-541D-4BF8-B052-7C91D7BE7445}" Language="SFX" Hash="2085546662">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -17,19 +17,19 @@
 					<IncludedMemoryFiles>
 						<File Id="6886749" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_in_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_in_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_in_03_F71BAD01.wem</Path>
 						</File>
 						<File Id="22995029" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_exh_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_exh_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_exh_02_0177E734.wem</Path>
 						</File>
 						<File Id="43065295" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_exh_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_exh_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_exh_03_0177E734.wem</Path>
 						</File>
 						<File Id="53767253" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_in_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_in_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_in_02_3D93DABA.wem</Path>
 						</File>
 						<File Id="91755290" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_exh_st_01.wav</ShortName>
@@ -41,7 +41,7 @@
 						</File>
 						<File Id="100238377" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_in_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_in_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_in_02_87E6324E.wem</Path>
 						</File>
 						<File Id="130001223" Language="SFX">
 							<ShortName>Player\Breathing\br_idle_ex_01.wav</ShortName>
@@ -65,7 +65,7 @@
 						</File>
 						<File Id="240574184" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_exh_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_exh_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_exh_01_EB21D7BD.wem</Path>
 						</File>
 						<File Id="304005098" Language="SFX">
 							<ShortName>Player\Breathing\br_idle_in_01.wav</ShortName>
@@ -77,11 +77,11 @@
 						</File>
 						<File Id="320628812" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_in_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_in_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_in_01_3D93DABA.wem</Path>
 						</File>
 						<File Id="329219273" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_in_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_in_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_in_02_3D93DABA.wem</Path>
 						</File>
 						<File Id="377717805" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_exh_03.wav</ShortName>
@@ -89,7 +89,7 @@
 						</File>
 						<File Id="409063699" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_exh_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_exh_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_exh_02_58872F99.wem</Path>
 						</File>
 						<File Id="426139116" Language="SFX">
 							<ShortName>Player\Breathing\br_idle_ex_03.wav</ShortName>
@@ -101,11 +101,11 @@
 						</File>
 						<File Id="500463322" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_in_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_in_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_in_01_37F86663.wem</Path>
 						</File>
 						<File Id="514919507" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_in_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_in_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_in_01_3D93DABA.wem</Path>
 						</File>
 						<File Id="566892346" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_in_02.wav</ShortName>
@@ -113,7 +113,7 @@
 						</File>
 						<File Id="587941404" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_in_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_in_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_in_03_3D93DABA.wem</Path>
 						</File>
 						<File Id="597218843" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_in__st_02.wav</ShortName>
@@ -121,11 +121,11 @@
 						</File>
 						<File Id="614936926" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_exh_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_exh_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_exh_03_AF745E7A.wem</Path>
 						</File>
 						<File Id="667109819" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt02_exh_02.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt02_exh_02_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt02_exh_02_969A59D8.wem</Path>
 						</File>
 						<File Id="747838272" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_exh_02.wav</ShortName>
@@ -133,15 +133,15 @@
 						</File>
 						<File Id="820567222" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_exh_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_exh_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_exh_01_0177E734.wem</Path>
 						</File>
 						<File Id="823791991" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_exh_01.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_exh_01_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_exh_01_FFC8EA8E.wem</Path>
 						</File>
 						<File Id="858700514" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_in_04.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_in_04_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_in_04_24FFA17D.wem</Path>
 						</File>
 						<File Id="891011470" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_exh_st_03.wav</ShortName>
@@ -149,11 +149,11 @@
 						</File>
 						<File Id="899141221" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_exh_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_exh_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_exh_03_5238F70D.wem</Path>
 						</File>
 						<File Id="950125255" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt01_in_03.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt01_in_03_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt01_in_03_3D93DABA.wem</Path>
 						</File>
 						<File Id="1041825930" Language="SFX">
 							<ShortName>Player\Breathing\br_walk_in__st_03.wav</ShortName>
@@ -165,7 +165,7 @@
 						</File>
 						<File Id="1068397032" Language="SFX">
 							<ShortName>Player\Breathing\br_spirnt03_exh_04.wav</ShortName>
-							<Path>SFX\Player\Breathing\br_spirnt03_exh_04_C1F52A07.wem</Path>
+							<Path>SFX\Player\Breathing\br_spirnt03_exh_04_9AE073A0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -579,6 +579,9 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1771880628" Name="Stamina" ObjectPath="\Game Parameters\Default Work Unit\Stamina" GUID="{2AB56945-8E83-4AF6-A353-D40EC58AA85D}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="556887514" Name="Locomotion" ObjectPath="\Switches\Default Work Unit\Locomotion" GUID="{C1C5EC9F-13C8-413B-BC6D-9171894F1010}">
 					<Switches>

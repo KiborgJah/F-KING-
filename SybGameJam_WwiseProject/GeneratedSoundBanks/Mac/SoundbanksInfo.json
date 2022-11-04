@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "696340910",
+    "Hash": "135770581",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,7 +28,7 @@
     "Id": "4056684167",
     "GUID": "{15456C88-541D-4BF8-B052-7C91D7BE7445}",
     "Language": "SFX",
-    "Hash": "3045791645",
+    "Hash": "2085546662",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -44,25 +44,25 @@
         "Id": "6886749",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_03_F71BAD01.wem"
        },
        {
         "Id": "22995029",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_exh_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_02_0177E734.wem"
        },
        {
         "Id": "43065295",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_exh_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_03_0177E734.wem"
        },
        {
         "Id": "53767253",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_in_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_02_3D93DABA.wem"
        },
        {
         "Id": "91755290",
@@ -80,7 +80,7 @@
         "Id": "100238377",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_02_87E6324E.wem"
        },
        {
         "Id": "130001223",
@@ -116,7 +116,7 @@
         "Id": "240574184",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_01_EB21D7BD.wem"
        },
        {
         "Id": "304005098",
@@ -134,13 +134,13 @@
         "Id": "320628812",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_in_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_01_3D93DABA.wem"
        },
        {
         "Id": "329219273",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_in_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_02_3D93DABA.wem"
        },
        {
         "Id": "377717805",
@@ -152,7 +152,7 @@
         "Id": "409063699",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_02_58872F99.wem"
        },
        {
         "Id": "426139116",
@@ -170,13 +170,13 @@
         "Id": "500463322",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_01_37F86663.wem"
        },
        {
         "Id": "514919507",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_in_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_01_3D93DABA.wem"
        },
        {
         "Id": "566892346",
@@ -188,7 +188,7 @@
         "Id": "587941404",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_in_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_in_03_3D93DABA.wem"
        },
        {
         "Id": "597218843",
@@ -200,13 +200,13 @@
         "Id": "614936926",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_03_AF745E7A.wem"
        },
        {
         "Id": "667109819",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_02_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_02_969A59D8.wem"
        },
        {
         "Id": "747838272",
@@ -218,19 +218,19 @@
         "Id": "820567222",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_exh_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_exh_01_0177E734.wem"
        },
        {
         "Id": "823791991",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_01_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_01_FFC8EA8E.wem"
        },
        {
         "Id": "858700514",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_04.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_04_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_04_24FFA17D.wem"
        },
        {
         "Id": "891011470",
@@ -242,13 +242,13 @@
         "Id": "899141221",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_03_5238F70D.wem"
        },
        {
         "Id": "950125255",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt01_in_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_03_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt01_in_03_3D93DABA.wem"
        },
        {
         "Id": "1041825930",
@@ -266,7 +266,7 @@
         "Id": "1068397032",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_04.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_04_C1F52A07.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_04_9AE073A0.wem"
        }
       ]
      },
@@ -989,6 +989,14 @@
         ]
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1771880628",
+      "Name": "Stamina",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Stamina",
+      "GUID": "{2AB56945-8E83-4AF6-A353-D40EC58AA85D}"
      }
     ],
     "SwitchGroups": [
