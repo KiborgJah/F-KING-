@@ -29,6 +29,43 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="ThingsOnMap" ID="{58ECC8E6-4398-45C8-B41C-BBF923C3C0EE}" ShortID="684296884">
+					<ChildrenList>
+						<Event Name="ObeliskVoice" ID="{C8BEBD1C-2013-493A-A81C-96A8CECF0FBA}">
+							<ChildrenList>
+								<Action Name="" ID="{04F66B91-DE3B-4703-B97E-7375D07F5E25}" ShortID="173833166">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voises" ID="{EC518A24-80E8-4BAA-B2DA-F45725955341}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Torch" ID="{83DB7DAD-AE16-4AE0-92BB-C837BCB218B9}">
+							<ChildrenList>
+								<Action Name="" ID="{26987EB7-7CA6-4219-8917-C6B7CB1C832E}" ShortID="960546647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{8680788B-657A-4569-AE4B-06295E20E39F}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Flags" ID="{227BCBAA-B3F3-452E-BD5F-E2D8E62D95FD}">
+							<ChildrenList>
+								<Action Name="" ID="{233645BE-4EF0-4071-929A-272C12DD22E6}" ShortID="642600480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flags" ID="{939EE30E-9399-4CF8-AAB3-BCFB18A3A839}" WorkUnitID="{9B5AA677-BC86-4F36-9502-B23887F15464}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

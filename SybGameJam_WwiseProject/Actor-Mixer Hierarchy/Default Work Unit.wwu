@@ -4389,6 +4389,2664 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="BrakeThings" ID="{9DCD7FE0-2D84-4B3E-A8CF-A6BEF8F22044}" ShortID="232430842">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Auto Detect High" ID="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}" WorkUnitID="{2B50BE9D-827F-4F87-BFFF-620B8A9F1AB4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Stone" ID="{E88BB49E-D011-4D89-B6E9-E0D2C485C5A9}" ShortID="440469783">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="StPut" ID="{D948974D-67CD-4FDD-9FCC-E064B0BAA4D1}" ShortID="773956472">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="StPutWood" ID="{66A71B83-3A4E-4376-95E7-80C52D6935B2}" ShortID="1061906526">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{49D907B0-F6CE-4637-B6AD-EDD7A8E63271}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{DC912D78-26E0-4E9F-B50A-85852B3579F8}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{4F16087C-B31C-45B9-A9BE-686EF3CE5B8D}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="StPutGravel" ID="{E9204558-1413-4EA5-9A4B-503D2145E804}" ShortID="567175973">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{AEF9B1B3-44C1-4E49-A9D9-82F5FC265AA9}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{8840E272-BFCA-43B5-8ABA-3772A7F811B3}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{576B99DA-9665-49C4-BD0D-2230CAEBFD0F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="StPutSand" ID="{6B818150-55D7-46A3-8F14-CD1483CB0A09}" ShortID="812413768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{0EB83817-78DC-43C6-BB4E-3FA6BB6948E2}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{B8514267-7F7E-4782-BE2A-78C1AEFC5D6F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{C6D18ECD-54F1-4572-80EA-8FCD5101AC42}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="StPutSand" ID="{6B818150-55D7-46A3-8F14-CD1483CB0A09}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="StPutGravel" ID="{E9204558-1413-4EA5-9A4B-503D2145E804}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="StPutWood" ID="{66A71B83-3A4E-4376-95E7-80C52D6935B2}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="StPutWood" ID="{66A71B83-3A4E-4376-95E7-80C52D6935B2}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="StPutGravel" ID="{E9204558-1413-4EA5-9A4B-503D2145E804}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}"/>
+												<ItemList>
+													<ItemRef Name="StPutSand" ID="{6B818150-55D7-46A3-8F14-CD1483CB0A09}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="StBrake" ID="{88B10846-6AAF-461C-B814-4BF995E2D308}" ShortID="513649018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="StBrakeWood" ID="{F47B5BAD-9FC2-4DB6-9480-876A491AE3CA}" ShortID="796666835">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{D680C59D-EAA6-4E23-84DE-41DC608693FF}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{225AD0CC-5CA3-4C87-9A03-02EA787F6722}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{850B3A79-FC82-4861-A483-EA1BC970CDF4}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="StBrakeGravel" ID="{2F4A1C75-F735-4845-93CB-3052935552DA}" ShortID="11052741">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{41393BE5-77CA-4EE7-B1DC-132ABD0ECFA2}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{7576604E-E9EB-4DD2-8691-2C24EC7EC70E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{3FFBBF30-8D4F-44AE-A2A0-37F0C44EB505}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="StBrakeGravel" ID="{2F4A1C75-F735-4845-93CB-3052935552DA}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="StBrakeWood" ID="{F47B5BAD-9FC2-4DB6-9480-876A491AE3CA}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="StBrakeWood" ID="{F47B5BAD-9FC2-4DB6-9480-876A491AE3CA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="StBrakeGravel" ID="{2F4A1C75-F735-4845-93CB-3052935552DA}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="WoodBox" ID="{8F6C3398-A0B5-48A0-9E46-2713995039E8}" ShortID="154545905">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="BoxPut" ID="{274B7102-1C08-42A7-ACB9-05FD9A5A9EB0}" ShortID="603060315">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="BoxPutWood" ID="{33065FD7-F9E3-415A-BB9E-C6D6AB544C2D}" ShortID="1067107416">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{2D48A95D-5EC3-4D68-8A5B-46C030ACA384}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{955A7451-C2D3-41EB-9445-ED7F0B0BF631}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{52C03052-DC85-429D-8A9C-1D0D268D7C1E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BoxPutGravel" ID="{A530642E-A26A-46A7-AA1F-B9311A15D7AD}" ShortID="265841668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{95C41B13-78E9-41EB-81F3-8DF66FE016B5}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{C3260605-6D22-417C-A8C3-332B3894F92D}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{131B0071-46E7-463C-91A1-9CCA1AC0DFED}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BoxPutSand" ID="{40F0531D-D1DE-4C1A-A063-1923B1FC1F60}" ShortID="152450683">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{A0BF4CB9-934F-41AB-82C0-701F09630277}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{0059B26A-3D4D-4690-B783-9F869234118C}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{640497AC-7389-4D5F-804A-6B4C487B92CD}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="BoxPutSand" ID="{40F0531D-D1DE-4C1A-A063-1923B1FC1F60}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="BoxPutGravel" ID="{A530642E-A26A-46A7-AA1F-B9311A15D7AD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="BoxPutWood" ID="{33065FD7-F9E3-415A-BB9E-C6D6AB544C2D}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="BoxPutWood" ID="{33065FD7-F9E3-415A-BB9E-C6D6AB544C2D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="BoxPutGravel" ID="{A530642E-A26A-46A7-AA1F-B9311A15D7AD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}"/>
+												<ItemList>
+													<ItemRef Name="BoxPutSand" ID="{40F0531D-D1DE-4C1A-A063-1923B1FC1F60}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="BoxBrake" ID="{1DF13479-FDC1-403F-A486-D41798EC3E69}" ShortID="229362141">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="BoxBrakeWood" ID="{B75E5D7B-E199-4ED2-9CD4-CEF6389EEDEF}" ShortID="553035856">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{B5FB69BA-68C7-4BE2-AA70-1E96C79AAA52}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{CBBE9BF4-4B14-45A0-B649-24D161C8A3F4}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{C7B1BB80-B5FD-4B9D-AD53-54FE4AB52E68}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="BoxBrakeGravel" ID="{AB5AE391-FDD0-4496-A270-EF27EF363D65}" ShortID="459873074">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{DB631B7D-5F70-42D4-B88A-1DB0053B11E3}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{F9E639C9-92F1-49ED-83A6-F56A9EE489A2}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{6E39C6C3-9A9D-4395-8CF4-99E65864CCDE}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="BoxBrakeWood" ID="{B75E5D7B-E199-4ED2-9CD4-CEF6389EEDEF}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="BoxBrakeGravel" ID="{AB5AE391-FDD0-4496-A270-EF27EF363D65}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="BoxBrakeWood" ID="{B75E5D7B-E199-4ED2-9CD4-CEF6389EEDEF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="BoxBrakeGravel" ID="{AB5AE391-FDD0-4496-A270-EF27EF363D65}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Vase" ID="{FCE0C852-C270-427A-A41B-7FEF48F1AFF2}" ShortID="843428068">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="VPut" ID="{15C5DBAA-8400-423F-8A41-BA8A9D42C6F6}" ShortID="374032148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VPutWood" ID="{7A8B5F38-0FDB-4C9F-8F10-4A61ED5D6CA6}" ShortID="263839862">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{93CB0360-DBB6-4C27-A7B6-AB74386A65F1}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{3D33CCCB-6E35-4508-81A3-7DB4771FCBE0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{E5A196DD-4C6F-451B-B871-C0D161D08906}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="VPutGravel" ID="{2EC17130-53BA-4249-BCE2-2613BE281513}" ShortID="87113726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{76EAF9C5-8F19-4102-AF85-D5405B513B38}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{E36C946C-F697-4ABE-9B6E-EC92436C4CEE}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{174CEF0B-240E-49D2-86A4-96E62CCFBB3A}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="VPutSand" ID="{3D4C988C-40ED-4ADA-A7F0-E8680FDD2300}" ShortID="515537334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{585FF8CE-92FE-482C-9B65-6879C5310B65}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{92E1B9E8-EC10-4922-8E9A-F7A2D5A17284}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{6A0821AB-595E-4FB6-B5E4-BFC3B78A741F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="VPutGravel" ID="{2EC17130-53BA-4249-BCE2-2613BE281513}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="VPutWood" ID="{7A8B5F38-0FDB-4C9F-8F10-4A61ED5D6CA6}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="VPutSand" ID="{3D4C988C-40ED-4ADA-A7F0-E8680FDD2300}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="VPutWood" ID="{7A8B5F38-0FDB-4C9F-8F10-4A61ED5D6CA6}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="VPutGravel" ID="{2EC17130-53BA-4249-BCE2-2613BE281513}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sand" ID="{3560F64D-2204-4ADB-80C4-200F995DEC49}"/>
+												<ItemList>
+													<ItemRef Name="VPutSand" ID="{3D4C988C-40ED-4ADA-A7F0-E8680FDD2300}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="VBrake" ID="{0778D1E8-044E-447F-B228-A58B1085ACCD}" ShortID="901992875">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface" ID="{BC531CA6-3ED9-442E-AAFF-41CD3721193F}" WorkUnitID="{272B0924-5B43-4BDA-B1F0-6397FEA10AC7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VBrakeWood" ID="{C58B7B3D-3507-4F83-B69E-11FE78C4CB18}" ShortID="496025272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{1A9FF986-A7B5-43B2-8699-1C6B7228568C}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{AD437D00-532A-473C-B61B-C3076AB6EBE9}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{934762A5-901E-4F32-A9BD-FDF32E09D9EE}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="VBrakeGravel" ID="{E7C0F6B0-60DF-454D-9B24-84F2A2BC5215}" ShortID="228169257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+														<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{2847C37A-26FF-4234-843B-BB02276858E2}">
+															<PropertyList>
+																<Property Name="Channels" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">4</Value>
+																		<Value Platform="Windows">4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="LRMix" Type="Real64">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MaxSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="MinSampleRate" Type="int32">
+																	<ValueList>
+																		<Value Platform="Mac">0</Value>
+																		<Value Platform="Windows">0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SampleRate" Type="int32">
+																	<ValueList>
+																		<Value>3</Value>
+																		<Value Platform="Mac">3</Value>
+																		<Value Platform="Windows">3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ConversionPluginInfoList>
+																<ConversionPluginInfo Platform="Mac">
+																	<ConversionPlugin Name="" ID="{CA04E87F-3456-4215-9FBA-4D451BEDB18E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+																<ConversionPluginInfo Platform="Windows">
+																	<ConversionPlugin Name="" ID="{5F521ACE-1BEB-49FA-8083-F9E0C474522C}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+																</ConversionPluginInfo>
+															</ConversionPluginInfoList>
+														</Conversion>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="VBrakeWood" ID="{C58B7B3D-3507-4F83-B69E-11FE78C4CB18}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="VBrakeGravel" ID="{E7C0F6B0-60DF-454D-9B24-84F2A2BC5215}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{276A5325-CF9B-4EA7-BD38-F11816904007}"/>
+												<ItemList>
+													<ItemRef Name="VBrakeWood" ID="{C58B7B3D-3507-4F83-B69E-11FE78C4CB18}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{CD665348-A6B2-4641-8DBB-5044E6DB5ADC}"/>
+												<ItemList>
+													<ItemRef Name="VBrakeGravel" ID="{E7C0F6B0-60DF-454D-9B24-84F2A2BC5215}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<Folder Name="Objects" ID="{B7A910F8-8D5D-4042-9E44-599983DF01B0}" ShortID="804727142">
+					<ChildrenList>
+						<ActorMixer Name="Obeliscs" ID="{2E56FE3B-FA47-472E-93B7-435B9F2467E4}" ShortID="409895940">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{115E5E1F-CEFF-4C37-8CE3-7F24CC46D744}" ShortID="723361897">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{37729948-350B-464B-8D08-F883DAFEBA88}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="LowPassFilter" ID="{92D78AC1-CF52-46D5-8B2B-B3D66B210445}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>16</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="HighPassFilter" ID="{09757D73-7896-426E-8816-5CFB18A8C6CC}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>12</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{66C8C982-B618-470D-81EB-43C0731826A1}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>58.33333</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1500</XPos>
+																	<YPos>12.03704</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}" WorkUnitID="{2B50BE9D-827F-4F87-BFFF-620B8A9F1AB4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Voises" ID="{EC518A24-80E8-4BAA-B2DA-F45725955341}" ShortID="740533206">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{EAD46E77-33D6-4094-B1F5-2E0436EFA55A}" ShortID="646186545">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{45CC4F3D-8F05-48D8-A0BB-BD7563960BDB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>20</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>20</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{8801FA68-A1A1-4612-B14C-7C444D6D85F3}" ShortID="616884876">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B64ACCF5-BF6A-4670-A10E-80F75609180B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-4</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-0</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-4</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1C4DDC2C-19D2-4BB0-AF50-ED67E00A92F4}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+											<RTPCList>
+												<RTPC Name="" ID="{22CFD11D-8B1F-43EC-98A0-5905AC5C17C5}" ShortID="450634240">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C2D195FF-F40C-451B-93E3-B0213DFCD6B1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-180</XPos>
+																<YPos>-250</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>-250</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VoisesHell" ID="{71C31393-ED87-4B14-A20D-F2317E35787A}" ShortID="202880326">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{ABAAF95F-D0B8-495A-B41E-17FD16EA3681}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RestartBeginningOrBackward" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ObelVoiceHell01" ID="{8E39F612-264F-4ABD-BB56-90F26BC58BCA}" ShortID="720316689">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell01" ID="{7AB43218-10E6-4B90-A142-84A9B5C75A7F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.20420106974088"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.85071506465182"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="883247697"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell01" ID="{7AB43218-10E6-4B90-A142-84A9B5C75A7F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceHell02" ID="{906D4D5C-0405-4AA8-895F-B66D9FCAD5C1}" ShortID="986101336">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell02" ID="{A59FF696-2DE0-4E41-BDB9-C7E86A80DB9F}">
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="510002164"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell02" ID="{A59FF696-2DE0-4E41-BDB9-C7E86A80DB9F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceHell03" ID="{C0EF0025-C0D3-46A9-B7F4-43C1A53EB4DD}" ShortID="268237300">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell03" ID="{DC6EEAC8-FFCC-4018-BB49-2097793F6334}">
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="426754258"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell03" ID="{DC6EEAC8-FFCC-4018-BB49-2097793F6334}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceHell04" ID="{E478B5F8-7326-469A-B5C5-C53A1043D444}" ShortID="666977713">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell04" ID="{90F1EC5E-8544-41DE-9A58-AE2A4D10918B}">
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="740053432"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell04" ID="{90F1EC5E-8544-41DE-9A58-AE2A4D10918B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceHell05" ID="{DB6539D2-29F4-4B9F-8E51-0A373E600807}" ShortID="598776414">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell05" ID="{D8564DCC-27BF-409B-A771-FCB8AFCDFA1E}">
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="109187861"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell05" ID="{D8564DCC-27BF-409B-A771-FCB8AFCDFA1E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceHell06" ID="{D26A8BA1-45B5-40D1-B611-322D4EEAEA13}" ShortID="356367853">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceHell06" ID="{6A486E34-3BED-43FB-A7CB-75CB2D1CA33B}">
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceHell06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="913099271"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceHell06" ID="{6A486E34-3BED-43FB-A7CB-75CB2D1CA33B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="VoisesReverse" ID="{DE97FA2B-C09E-475C-ADE2-4723EF38527D}" ShortID="514361343">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5A6A921D-0DD8-4EF2-B5D2-AF70409A55D0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ObelVoiceRev01" ID="{80B0A7C8-476A-4E72-A6E2-F3ECDFE11612}" ShortID="61645384">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceRev01" ID="{1DEDD061-CD87-4D08-A026-9705AE0E0207}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.87433822044509"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.0346377940489"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceRev01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="617178684"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceRev01" ID="{1DEDD061-CD87-4D08-A026-9705AE0E0207}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceRev02" ID="{44DA2D37-CF57-4988-9D79-D794B0E39DE6}" ShortID="284603716">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceRev02" ID="{11863040-C4F4-4537-A464-C236E598894B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.43041768361289"/>
+																<Property Name="TrimEnd" Type="Real64" Value="16.9183884648007"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceRev02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="240293635"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceRev02" ID="{11863040-C4F4-4537-A464-C236E598894B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceRev03" ID="{B75C3291-97FD-415A-9D7D-C7497BC0B65E}" ShortID="303943182">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceRev03" ID="{CDF908D8-3C6F-4A3F-B002-48796ED756FD}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.1579569334095"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.1579569334095"/>
+																<Property Name="TrimEnd" Type="Real64" Value="15.5924890516003"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceRev03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="205521581"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceRev03" ID="{CDF908D8-3C6F-4A3F-B002-48796ED756FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ObelVoiceRev04" ID="{2B9AA409-5594-46B1-A10A-891B49F285D3}" ShortID="604095894">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ObelVoiceRev04" ID="{27991E16-F243-4CD2-8CEF-C824302413EA}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.16265513839123"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.16265513839123"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.1150997040037"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Obelisk\ObelVoiceRev04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767764003"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ObelVoiceRev04" ID="{27991E16-F243-4CD2-8CEF-C824302413EA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Torch" ID="{A63739A9-F08A-4B29-BD10-72853CBB76B7}" ShortID="102604790">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{F6F682D4-7238-4CAB-B520-AE3ADD61D03E}" ShortID="160248615">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D61337A3-0173-4087-B751-A7482159B5C8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-180</XPos>
+														<YPos>15</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-0</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>15</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{C151A165-F48B-4137-A4ED-379FCAC76F53}" ShortID="903902441">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8DBC559-699A-4DD3-AD25-D9E077DAD8D4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-180</XPos>
+														<YPos>25</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-0</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>25</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{233A12B7-E84F-4580-B2D0-FBB3503CC5AA}" ShortID="668654265">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{87FA5390-0098-4CBA-A2F5-D8EBC11338AE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-180</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{162724E6-815F-42EA-A560-2ED00F7B1C73}" ShortID="643098058">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{E0461617-A0C1-4544-B9F5-D32E41D85551}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{84CCE5F2-0814-4284-B8D6-CFE9C1183876}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>18</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{F797F927-7E19-47DC-9A5A-0ECF68CE4D88}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>52.77778</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>12.96296</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}" WorkUnitID="{2B50BE9D-827F-4F87-BFFF-620B8A9F1AB4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{8680788B-657A-4569-AE4B-06295E20E39F}" ShortID="570938593">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}">
+												<Conversion Name="Vorbis Auto Detect High (Custom)" ID="{C1F2578E-4E10-48E3-A05D-20D0CAB31530}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Mac">4</Value>
+																<Value Platform="Windows">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Mac">0</Value>
+																<Value Platform="Windows">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Mac">0</Value>
+																<Value Platform="Windows">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Mac">0</Value>
+																<Value Platform="Windows">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value>3</Value>
+																<Value Platform="Mac">3</Value>
+																<Value Platform="Windows">3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{3A8858C9-54EB-4AAD-B954-DE8B20FCB446}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{C48A1545-338D-4036-AE02-76F4BC29BE8A}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{753625BE-A384-4E1E-8301-61C03389CFA7}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2272.453"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.445"/>
+												<Property Name="LoopEnd" Type="Real64" Value="36.35504028838"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="38.252693490246"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369114987"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1" ID="{753625BE-A384-4E1E-8301-61C03389CFA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<BlendContainer Name="Flags" ID="{939EE30E-9399-4CF8-AAB3-BCFB18A3A839}" ShortID="610484431">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{DF816AFC-58B6-4787-8EB3-B829D56B2B1B}" ShortID="941685180">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CC033264-4328-472B-A256-ED616D62640E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-180</XPos>
+														<YPos>5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{34A294FB-82D8-4424-9C42-762328FC4768}" ShortID="425100651">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Asimuth" ID="{7C9C7A2D-AA66-4580-96A8-7E78BA279269}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A20D7816-09CE-415A-BC67-72E1EBD6CC23}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-180</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-0</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{2E273951-DCA8-4F7E-BFF4-F2DFC463416E}" ShortID="45869402">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{0C25BB9C-D5D1-414E-BEF2-735950B1E024}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="LowPassFilter" ID="{BF1057CA-9E82-4796-8B7D-5AC8A08B75A0}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>7</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="HighPassFilter" ID="{10B2CB39-A01E-4A7A-83A2-843135998A49}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>9</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="Spread" ID="{7DC0CD50-C480-4DA7-B544-56D91B98DC98}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>67.59259</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1000</XPos>
+																	<YPos>12.03704</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{4A87463B-658A-48DB-AA8D-DB46FC53C8C4}" WorkUnitID="{2B50BE9D-827F-4F87-BFFF-620B8A9F1AB4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FlagFar" ID="{940CE1E7-856D-4734-B8CD-E23D17130957}" ShortID="288707424">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{74BAE8A4-C935-4739-85B4-DAD1DE277557}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0A25435E-BA33-4F73-B639-693BE6138577}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FlagFar01" ID="{9FD76848-DAA4-44C4-BE06-0825732A010B}" ShortID="631849444">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagFar01" ID="{57547EA6-D12D-475F-9F79-7ED23E984C67}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.122871163732669"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.49500199061813"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagFar01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="777894613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagFar01" ID="{57547EA6-D12D-475F-9F79-7ED23E984C67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagFar02" ID="{58BC7B91-899C-4C63-9C0D-7B9150083A96}" ShortID="515554365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagFar02" ID="{371AEC91-DD45-4245-977D-E9655875533A}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0832351872046529"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0832351872046529"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.06781118554292"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagFar02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="102795339"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagFar02" ID="{371AEC91-DD45-4245-977D-E9655875533A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagFar03" ID="{3C653C9A-B1DD-4FFF-B3E6-51D6BB6B1DDA}" ShortID="662194003">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagFar03" ID="{5C21DB33-1BB6-4B95-AD2F-A91DC6F569AF}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0422783057243254"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.74808987208115"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagFar03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="921281017"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagFar03" ID="{5C21DB33-1BB6-4B95-AD2F-A91DC6F569AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagFar04" ID="{EEA1D78A-D1D4-417F-9144-853D65A59E0E}" ShortID="502612813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagFar04" ID="{B37A50FA-6F58-498A-8A20-17760BEC3408}">
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagFar04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="146974136"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagFar04" ID="{B37A50FA-6F58-498A-8A20-17760BEC3408}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FlagNear" ID="{35D08B8F-6449-4837-B13F-FB70DEB6FBCE}" ShortID="620673435">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FlagNiar01" ID="{4D936B4B-366E-42BE-A0A9-BCCAC0440DA3}" ShortID="45866172">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar01" ID="{3E578968-9004-4354-8859-6601DB5236E1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.152671755725191"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.152671755725191"/>
+														<Property Name="TrimEnd" Type="Real64" Value="11.8320610687023"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="660735587"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar01" ID="{3E578968-9004-4354-8859-6601DB5236E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar03" ID="{DD5A34F4-2482-486D-BCE5-F7CA994F8D55}" ShortID="695931570">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar03" ID="{BCAED3B5-19AC-4400-BAA0-71B18C8818DB}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="14.4497927737677"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="158430749"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar03" ID="{BCAED3B5-19AC-4400-BAA0-71B18C8818DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar02" ID="{03855118-74B7-4F64-A339-D601675B01B6}" ShortID="337364901">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar02" ID="{7ADE7E41-017E-45AB-9BA8-9406DE57F50C}">
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="872208426"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar02" ID="{7ADE7E41-017E-45AB-9BA8-9406DE57F50C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FlagMiddle" ID="{F8A197D9-82FF-4D7D-A5A1-528BF6076B6D}" ShortID="820598803">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FlagNiar0104" ID="{20447864-618F-4846-AFF8-E7E65EFF6A44}" ShortID="163467440">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar0104" ID="{F14AA036-ECB5-4EE7-881C-B539B9E0AAC6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.94716062845834"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar0104.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="768664044"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar0104" ID="{F14AA036-ECB5-4EE7-881C-B539B9E0AAC6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar0103" ID="{BAC14A31-E586-4F3F-AF23-8BD621E7073A}" ShortID="573413004">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar0103" ID="{5682A919-207E-4DDB-81FF-59AE3D5FA469}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.97299740931148"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar0103.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="391540009"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar0103" ID="{5682A919-207E-4DDB-81FF-59AE3D5FA469}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar0101" ID="{75195D19-04E6-4259-9B64-0B6A227E9BA4}" ShortID="422273433">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar0101" ID="{59B33F49-8D9E-4F60-AA41-EF1378F46DF1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.97299740931148"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar0101.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609540459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar0101" ID="{59B33F49-8D9E-4F60-AA41-EF1378F46DF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar0102" ID="{5E2948B5-E604-40EB-B413-5548FF256271}" ShortID="773165683">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar0102" ID="{C1722703-EF93-4254-B28B-F3C9CB34450B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.94716062845834"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar0102.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638147436"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar0102" ID="{C1722703-EF93-4254-B28B-F3C9CB34450B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FlagNiar0105" ID="{030438C7-4345-4F24-B5EB-11AF8073EC87}" ShortID="580303776">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings_01" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7D513896-D2B4-4901-81AA-9D9DAE1E78C5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D466D8E6-1C26-46CE-BD24-25918436B29F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FlagNiar0105" ID="{C9CB16F8-5786-42A2-831B-C02C3F5D1BD1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.97299740931148"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Flag\FlagNiar0105.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="709897753"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FlagNiar0105" ID="{C9CB16F8-5786-42A2-831B-C02C3F5D1BD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<BlendTrackList>
+								<BlendTrack Name="FarVariation" ID="{CDA415D9-3247-47CC-A33F-B7B48E388237}" ShortID="184799199">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="FarVariation" ID="{75452772-C192-494D-A9B4-DDF62A7832EF}" WorkUnitID="{52A420A6-22BA-4B59-A03B-D2B7C1017FAE}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="FlagNear" ID="{35D08B8F-6449-4837-B13F-FB70DEB6FBCE}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>343.26735816777</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="FlagMiddle" ID="{F8A197D9-82FF-4D7D-A5A1-528BF6076B6D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.0005</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>752.318130794702</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="FlagFar" ID="{940CE1E7-856D-4734-B8CD-E23D17130957}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>572.737681843267</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Exp1</LeftFadingSegmentShape>
+												<RightEdgePos>1000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

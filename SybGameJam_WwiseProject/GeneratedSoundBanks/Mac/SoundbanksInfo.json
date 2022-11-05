@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "135770581",
+    "Hash": "956155425",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,7 +28,7 @@
     "Id": "4056684167",
     "GUID": "{15456C88-541D-4BF8-B052-7C91D7BE7445}",
     "Language": "SFX",
-    "Hash": "2085546662",
+    "Hash": "3416970069",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -44,7 +44,7 @@
         "Id": "6886749",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_03_F71BAD01.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_03_65D7E196.wem"
        },
        {
         "Id": "22995029",
@@ -80,7 +80,7 @@
         "Id": "100238377",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_02_87E6324E.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_02_DDC1DCB5.wem"
        },
        {
         "Id": "130001223",
@@ -116,7 +116,7 @@
         "Id": "240574184",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_01_EB21D7BD.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_01_1314EC39.wem"
        },
        {
         "Id": "304005098",
@@ -152,7 +152,7 @@
         "Id": "409063699",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_02_58872F99.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_02_8048EBAB.wem"
        },
        {
         "Id": "426139116",
@@ -170,7 +170,7 @@
         "Id": "500463322",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_01.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_01_37F86663.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_01_CE8EFBE4.wem"
        },
        {
         "Id": "514919507",
@@ -200,13 +200,13 @@
         "Id": "614936926",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_03_AF745E7A.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_03_5080744E.wem"
        },
        {
         "Id": "667109819",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt02_exh_02.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_02_969A59D8.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt02_exh_02_2876FCCE.wem"
        },
        {
         "Id": "747838272",
@@ -230,7 +230,7 @@
         "Id": "858700514",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_in_04.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_04_24FFA17D.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_in_04_E6A2DE52.wem"
        },
        {
         "Id": "891011470",
@@ -242,7 +242,7 @@
         "Id": "899141221",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_03.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_03_5238F70D.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_03_5FD8E73A.wem"
        },
        {
         "Id": "950125255",
@@ -266,7 +266,89 @@
         "Id": "1068397032",
         "Language": "SFX",
         "ShortName": "Player\\Breathing\\br_spirnt03_exh_04.wav",
-        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_04_9AE073A0.wem"
+        "Path": "SFX\\Player\\Breathing\\br_spirnt03_exh_04_5028C818.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1758328370",
+      "Name": "Flags",
+      "ObjectPath": "\\Events\\Default Work Unit\\ThingsOnMap\\Flags",
+      "GUID": "{227BCBAA-B3F3-452E-BD5F-E2D8E62D95FD}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "102795339",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagFar02.wav",
+        "Path": "SFX\\Flag\\FlagFar02_64EBEB36.wem"
+       },
+       {
+        "Id": "146974136",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagFar04.wav",
+        "Path": "SFX\\Flag\\FlagFar04_C1F52A07.wem"
+       },
+       {
+        "Id": "158430749",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar03.wav",
+        "Path": "SFX\\Flag\\FlagNiar03_4246E4A8.wem"
+       },
+       {
+        "Id": "391540009",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar0103.wav",
+        "Path": "SFX\\Flag\\FlagNiar0103_7007FFB3.wem"
+       },
+       {
+        "Id": "609540459",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar0101.wav",
+        "Path": "SFX\\Flag\\FlagNiar0101_7007FFB3.wem"
+       },
+       {
+        "Id": "638147436",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar0102.wav",
+        "Path": "SFX\\Flag\\FlagNiar0102_3008D46E.wem"
+       },
+       {
+        "Id": "660735587",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar01.wav",
+        "Path": "SFX\\Flag\\FlagNiar01_5D881A68.wem"
+       },
+       {
+        "Id": "709897753",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar0105.wav",
+        "Path": "SFX\\Flag\\FlagNiar0105_7007FFB3.wem"
+       },
+       {
+        "Id": "768664044",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar0104.wav",
+        "Path": "SFX\\Flag\\FlagNiar0104_3008D46E.wem"
+       },
+       {
+        "Id": "777894613",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagFar01.wav",
+        "Path": "SFX\\Flag\\FlagFar01_BC1F2F66.wem"
+       },
+       {
+        "Id": "872208426",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagNiar02.wav",
+        "Path": "SFX\\Flag\\FlagNiar02_C1F52A07.wem"
+       },
+       {
+        "Id": "921281017",
+        "Language": "SFX",
+        "ShortName": "Flag\\FlagFar03.wav",
+        "Path": "SFX\\Flag\\FlagFar03_5F03D3BD.wem"
        }
       ]
      },
@@ -989,14 +1071,114 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "167980886",
+      "Name": "ObeliskVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\ThingsOnMap\\ObeliskVoice",
+      "GUID": "{C8BEBD1C-2013-493A-A81C-96A8CECF0FBA}",
+      "MaxAttenuation": "1500.",
+      "DurationType": "OneShot",
+      "DurationMin": "168.175583",
+      "DurationMax": "168.564621",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "109187861",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell05.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell05_C1F52A07.wem"
+       },
+       {
+        "Id": "205521581",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceRev03.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceRev03_E2EB2DD0.wem"
+       },
+       {
+        "Id": "240293635",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceRev02.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceRev02_90C84C7B.wem"
+       },
+       {
+        "Id": "426754258",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell03.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell03_C1F52A07.wem"
+       },
+       {
+        "Id": "510002164",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell02.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell02_C1F52A07.wem"
+       },
+       {
+        "Id": "617178684",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceRev01.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceRev01_97EA5476.wem"
+       },
+       {
+        "Id": "740053432",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell04.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell04_C1F52A07.wem"
+       },
+       {
+        "Id": "767764003",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceRev04.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceRev04_A809C206.wem"
+       },
+       {
+        "Id": "883247697",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell01.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell01_B20A4346.wem"
+       },
+       {
+        "Id": "913099271",
+        "Language": "SFX",
+        "ShortName": "Obelisk\\ObelVoiceHell06.wav",
+        "Path": "SFX\\Obelisk\\ObelVoiceHell06_C1F52A07.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1904864137",
+      "Name": "Torch",
+      "ObjectPath": "\\Events\\Default Work Unit\\ThingsOnMap\\Torch",
+      "GUID": "{83DB7DAD-AE16-4AE0-92BB-C837BCB218B9}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "369114987",
+        "Language": "SFX",
+        "ShortName": "Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1.wav",
+        "Path": "SFX\\Fire, Burning, Wood, Crispy, Medium Intensity SND8761 1_3B1B662F.wem"
+       }
+      ]
      }
     ],
     "GameParameters": [
+     {
+      "Id": "1055984256",
+      "Name": "Asimuth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Asimuth",
+      "GUID": "{7C9C7A2D-AA66-4580-96A8-7E78BA279269}"
+     },
      {
       "Id": "1771880628",
       "Name": "Stamina",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Stamina",
       "GUID": "{2AB56945-8E83-4AF6-A353-D40EC58AA85D}"
+     },
+     {
+      "Id": "3611585691",
+      "Name": "FarVariation",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\FarVariation",
+      "GUID": "{75452772-C192-494D-A9B4-DDF62A7832EF}"
      }
     ],
     "SwitchGroups": [
